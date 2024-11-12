@@ -1,0 +1,9 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(scalafmtCheck, Some(4ca63a45-b4a0-4e2e-b459-72e9e15d9a1e), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / scalafmtCheck[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mscalafmt: Checking 1 Scala sources (/Users/msankhane/Desktop/Cours_ESGI/Scala/projet/project)...[0m
+[0m[[0m[33mwarn[0m] [0m[0mscalafmt: /Users/msankhane/Desktop/Cours_ESGI/Scala/projet/project/src/main/scala/SayHello.scala isn't formatted properly![0m
+[0m[[0m[31merror[0m] [0m[0mscalafmt: 1 files must be formatted (/Users/msankhane/Desktop/Cours_ESGI/Scala/projet/project)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mscalafmtCheck[0m) scalafmt: 1 files must be formatted (/Users/msankhane/Desktop/Cours_ESGI/Scala/projet/project)[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 13 s, completed 24 avr. 2024 à 17:02:52[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

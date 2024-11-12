@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(scalastyle, Some(be8f85ed-b250-406a-a4e5-00c433ec95cd), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / scalastyle[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle using config /Users/msankhane/Desktop/Cours_ESGI/Scala/projet/project/scalastyle-config.xml[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Processed 1 file(s)[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 0 errors[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 0 warnings[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 0 infos[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Finished in 4 ms[0m
+[0m[[0m[32msuccess[0m] [0m[0mcreated output: /Users/msankhane/Desktop/Cours_ESGI/Scala/projet/project/target[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed 25 avr. 2024 à 14:15:33[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

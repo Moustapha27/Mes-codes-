@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0mscalafmt: Adding repositories [https://repo1.maven.org/maven2/][0m
+[0m[[0m[0mdebug[0m] [0m[0mscalafmt: parsed config (v3.4.3): /Users/msankhane/Desktop/Projet_Perso_et_developpement/Application/.scalafmt.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0mscalafmt: considering all files (no git)[0m
+[0m[[0m[0mdebug[0m] [0m[0mscalafmt: Change report:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Checked: /Users/msankhane/Desktop/Projet_Perso_et_developpement/Application/src/main/scala/Application.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Modified: /Users/msankhane/Desktop/Cours_ESGI/Scala/TD2/project/src/main/scala/Main.scala, /Users/msankhane/Desktop/Projet_Perso_et_developpement/Application/src/main/scala/Application.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Unmodified: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	Added: /Users/msankhane/Desktop/Projet_Perso_et_developpement/Application/src/main/scala/Application.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Removed: /Users/msankhane/Desktop/Cours_ESGI/Scala/TD2/project/src/main/scala/Main.scala[0m
+[0m[[0m[0minfo[0m] [0m[0mscalafmt: Checking 1 Scala sources (/Users/msankhane/Desktop/Projet_Perso_et_developpement/Application)...[0m
+[0m[[0m[33mwarn[0m] [0m[0mscalafmt: /Users/msankhane/Desktop/Projet_Perso_et_developpement/Application/src/main/scala/Application.scala isn't formatted properly![0m
+[0m[[0m[0mdebug[0m] [0m[0mscalafmt: Unchanged 0 Scala sources[0m

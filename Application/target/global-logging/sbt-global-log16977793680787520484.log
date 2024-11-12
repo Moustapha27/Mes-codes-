@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(af62a1f5-e28f-4065-951b-d250e3b04434), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mscalafmt: Formatting 1 Scala sources (/Users/msankhane/Desktop/Projet_Perso_et_developpement/Application)...[0m
+[0m[[0m[0minfo[0m] [0m[0mscalafmt: Reformatted 1 Scala sources[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/msankhane/Desktop/Projet_Perso_et_developpement/Application/target/scala-2.13/classes ...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 6 s, completed 1 mai 2024 à 17:46:09[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
