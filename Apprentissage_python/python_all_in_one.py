@@ -1,40 +1,23 @@
-#Formatting width and alignment 
-# unit_price = 49.95
-# quantity = 32
-# sales_tax_rate = 0.065
-# subtotal = quantity * unit_price
-# sales_tax = sales_tax_rate * subtotal
-# total = subtotal + sales_tax
-# output = f"""
-# Subtotal:  ${subtotal:>9,.2f}
-# Sales Tax: ${sales_tax:>9,.2f}
-# Total:     ${total:>9,.2f}
-# """
-
-# print(output)
-
-
-#Complex
-# a = 2
-# b = 3
-
-# Z = complex(2,3)
-# print(Z.real)
-# print(Z.imag)
-
 import streamlit as st
 import datetime as dt
 
-
+# Affiche la date du jour
 a = dt.date.today()
 st.write(f"Date d'aujourd'hui : {a}")
 
+# Initialisation des champs de saisie dans session_state
+if "A" not in st.session_state:
+    st.session_state["A"] = ""
+if "M" not in st.session_state:
+    st.session_state["M"] = ""
+if "J" not in st.session_state:
+    st.session_state["J"] = ""
+
 # Fonction pour calculer l'âge
 def calculate_age(a):
-    # Utilisation des champs Streamlit pour l'interaction
-    A = st.text_input("Entrez votre année de naissance (format AAAA) :")
-    M = st.text_input("Entrez votre mois de naissance (format mm) :")
-    J = st.text_input("Entrez votre jour de naissance (format jj) :")
+    A = st.session_state["A"]
+    M = st.session_state["M"]
+    J = st.session_state["J"]
 
     # Vérifie que les entrées sont correctes
     if A and M and J:
@@ -57,6 +40,11 @@ def calculate_age(a):
             st.write("Veuillez entrer des valeurs numériques valides.")
             return None
     return None
+
+# Saisie utilisateur avec `session_state`
+st.text_input("Entrez votre année de naissance (format AAAA) :", key="A")
+st.text_input("Entrez votre mois de naissance (format mm) :", key="M")
+st.text_input("Entrez votre jour de naissance (format jj) :", key="J")
 
 # Bouton pour lancer le calcul de l'âge
 if st.button("Calculer l'âge"):
